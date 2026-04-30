@@ -2,31 +2,20 @@
 
 ## **1. Introduction**
 
-AWS Route 53 is a fully managed, highly available, and scalable Domain Name System (DNS) service provided by Amazon Web Services (AWS). It has become the cornerstone for many organizations because it delivers authoritative DNS responses, domain registration, and advanced routing capabilities through a single integrated solution. In this chapter, we will explore in depth how Route 53 empowers customers to route end-user requests reliably to endpoints—whether those endpoints are hosted on AWS or elsewhere. We will examine its features and how these features can be combined to design a robust, secure, and cost-effective DNS solution.
+AWS Route 53 is a fully managed, highly available, and scalable Domain Name System (DNS) service.
 
 ## **2. DNS Fundamentals**
 
-### **2.1 What is DNS?**
+This section provides some fundamental information.
 
-The Domain Name System (DNS) is a hierarchical, decentralized naming system for computers, services, or any resource connected to the Internet or a private network. It translates human-friendly domain names, such as _[www.example.com](http://www.example.com/)_, into numerical IP addresses (for example, 192.0.2.1) that computers use to identify each other on the network. Without DNS, users would have to remember complex numeric addresses rather than simple, easy-to-remember names.
+Recommendation: Be sure to understand DNS fundamentals before learning about AWS Route53.
 
-DNS functions as the backbone of Internet communication, and its design is based on a tree-like hierarchical structure. At the top of this hierarchy is the root zone, represented by a dot ("."). Below the root are top-level domains (TLDs) like .com, .org, and .gov, followed by second-level domains (for example, _example.com_), and potentially subdomains (such as _[www.example.com](http://www.example.com/)_ or _api.example.com_).
 
-![dns-structure](../_assets/dns-structure.png)
+### **2.1 Recap of DNS Concepts: Zones, Records, and Nameservers**
 
-Key points to remember:
-
-- **Hierarchical Structure:** The domain name hierarchy is crucial for delegation and management. Each level in the hierarchy can be managed by different organizations.
-- **Translation Process:** When a client types a domain name into a web browser, the request is forwarded to local DNS resolvers, which then query root servers, TLD servers, and authoritative name servers until the correct IP address is returned.
-- **Caching:** To reduce latency and load on DNS servers, responses are cached by local resolvers for a duration specified by the Time-to-Live (TTL) value.
-
-### **2.2 Key DNS Concepts: Zones, Records, and Nameservers**
-
-Before diving into AWS Route 53, it is essential to understand the core terminology and components of DNS:
-
-- **Domain Registrar:** A service where you register your domain name. Registrars such as Amazon Route 53, GoDaddy, or Google Domains allow you to secure a domain (for example, _example.com_) and generally offer DNS management tools.
+- **Domain Registrar:** A service where you register your domain name. Examples: *NIC, Amazon Route 53, GoDaddy, Google.
     
-- **DNS Records:** These are entries that map domain names to IP addresses or other domain names. The most common record types include:
+- **DNS Record Types:** Entries that map domain names to IP addresses or other domain names. Most common record types include:
     
     - **A Records:** Map a domain name to an IPv4 address.
     - **AAAA Records:** Map a domain name to an IPv6 address.
@@ -39,9 +28,7 @@ Before diving into AWS Route 53, it is essential to understand the core termino
 - **Nameservers:** Servers that host the zone file and respond to DNS queries. When you register a domain, the registrar provides nameservers that will eventually resolve the DNS queries for that domain.
     
 - **Fully Qualified Domain Name (FQDN):** A complete domain name that specifies its exact location within the DNS hierarchy. For example, _api.[www.example.com](http://www.example.com/)._ (with a trailing dot indicating the root).
-    
 
-Understanding these fundamentals is crucial because Route 53 extends and automates many of these DNS operations, making it easier to manage domain names and resolve queries efficiently.
 
 ## **3. Introduction to Route 53**
 
