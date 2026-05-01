@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="14cm"
+   height="7cm"
+   viewBox="0 0 140 70.000001"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="route53_resolver_endpoints.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.798036"
+     inkscape:cx="265.01138"
+     inkscape:cy="149.05152"
+     inkscape:window-width="1440"
+     inkscape:window-height="841"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="8.4377165"
+       y="19.838165"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="8.4377165"
+         y="19.838165">External Network</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="106.14893"
+       y="18.865751"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="106.14893"
+         y="18.865751">AWS</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       id="rect2"
+       width="25.523287"
+       height="21.493294"
+       x="8.4437933"
+       y="24.371861"
+       rx="3.5616877" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.476063;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2-4"
+       width="13.573437"
+       height="9.1596355"
+       x="26.231207"
+       y="26.253885"
+       rx="1.8941269" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       id="rect2-7"
+       width="25.523287"
+       height="21.493294"
+       x="104.97605"
+       y="22.780527"
+       rx="3.5616877" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="113.93726"
+       y="27.453749"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="113.93726"
+         y="27.453749">Private </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="113.93726"
+         y="30.981524"
+         id="tspan5">Hosted </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="113.93726"
+         y="34.5093"
+         id="tspan4">Zone</tspan></text>
+    <path
+       style="fill:none;stroke:#0a7a05;stroke-width:0.387515px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="M 38.901469,35.510536 C 61.108001,46.517361 90.635362,34.215617 90.635362,34.215617"
+       id="path15" />
+    <path
+       style="fill:none;stroke:#464fff;stroke-width:0.303394px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="M 99.096247,25.015489 C 71.944607,15.284276 47.009431,26.045853 47.009431,26.045853"
+       id="path16" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#3a37f6;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="59.082733"
+       y="17.639427"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-size:4.23333px;fill:#3a37f6;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="59.082733"
+         y="17.639427">Outbound Endpoint</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#0e6304;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="43.699566"
+       y="45.964573"
+       id="text16-9"><tspan
+         sodipodi:role="line"
+         id="tspan16-3"
+         style="font-size:4.23333px;fill:#0e6304;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="43.699566"
+         y="45.964573">Inbound Endpoint</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.476063;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2-4-5"
+       width="13.573437"
+       height="9.1596355"
+       x="99.021111"
+       y="24.370218"
+       rx="1.8941269" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="100.90673"
+       y="30.445179"
+       id="text2-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan2-0-2"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="100.90673"
+         y="30.445179">DNS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="28.532045"
+       y="32.270432"
+       id="text2-2"><tspan
+         sodipodi:role="line"
+         id="tspan2-0"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="28.532045"
+         y="32.270432">DNS</tspan></text>
+  </g>
+</svg>
